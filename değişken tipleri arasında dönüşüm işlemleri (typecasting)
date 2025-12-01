@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(void) {
+    int sayi1 = 19;
+    int sayi2 = 6;
+
+    int tamsayi_bolme_sonucu = sayi1 / sayi2;
+    float gercel_bolme_float = (float)sayi1 / sayi2;
+    double gercel_bolme_double = (double)sayi1 / sayi2;
+    int float_to_int = (int)gercel_bolme_float;
+
+    printf("Tam sayi bolme sonucu = %d\n", tamsayi_bolme_sonucu);
+    printf("Float bolme sonucu = %.20f\n", gercel_bolme_float);
+    printf("Double bolme sonucu = %.20f\n", gercel_bolme_double);
+    printf("Float sonucun tam sayiya donusturulmus hali = %d\n", float_to_int);
+
+    return 0;
+}
