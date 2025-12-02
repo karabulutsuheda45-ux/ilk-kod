@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+  int main() {
+      
+      float cm ,metre ,km;
+      
+     /* Uzunluğu santimetre cinsinden al*/
+     printf("Uzunluğu cm cinsinden giriniz:");
+     scanf("%f", &cm);
+     
+     /* Çevrim işlemlerini gerçekleştir */
+     metre = cm / 100.0;
+     km = cm / 100000.100000;
+     
+     printf("Metre cinsinden uzunluk = %.2f m \n",metre);
+     printf("Kilometre cinsinde uzunluk = %.2f km \n", km);
+     
+     return 0;
+  }
