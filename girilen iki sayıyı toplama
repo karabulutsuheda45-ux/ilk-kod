@@ -1,0 +1,15 @@
+#include <stdio.h>
+  
+  int main() {
+      
+      int sayi1, sayi2;
+      printf("ilk sayıyı giriniz:");
+      scanf("%d", &sayi1);
+      
+      printf("ikinci sayiyi giriniz:");
+      scanf("%d",&sayi2);
+      
+      printf("girilen iki sayinin toplami: %d", sayi1 + sayi2);
+      
+      return 0;
+  }
