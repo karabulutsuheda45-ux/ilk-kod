@@ -1,0 +1,15 @@
+#include <stdio.h>
+ 
+   int main(){
+       
+       char ogrenci_notu;
+       printf("ogrenci notunu giriniz;");
+       
+       //getchar() komutu ile al ve ogrenci_notu degiskeninde sakla
+       ogrenci_notu = getchar();
+       
+       //putchar() komutu ile notu çikti olarak ver
+       putchar(ogrenci_notu);
+       
+       return 0;
+   }
